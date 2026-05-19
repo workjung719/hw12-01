@@ -71,7 +71,7 @@ FOREIGN KEY (project_id) REFERENCES projects(id)
 );
 ```
 
-![Схема БД](D:\Developer\2_Playground\netology%20homework\SQL\1.%20Базы%20данных\hw12-01\hw_image\schema.png)
+![Схема БД](hw_image/schema.png)
 
 ---
 
@@ -79,7 +79,7 @@ FOREIGN KEY (project_id) REFERENCES projects(id)
 
 База данных успешно развернута локально в PostgreSQL. SQL-скрипт выполнен, таблицы и связи созданы.
 
-![dbeaver_schema.png](D:\Developer\2_Playground\netology%20homework\SQL\1.%20Базы%20данных\hw12-01\hw_image\dbeaver_schema.png)
+![Схема БД](hw_image/dbeaver_schema.png)
 
 
 
