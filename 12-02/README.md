@@ -5,12 +5,15 @@
 ### Задание 1
 
 `Выполнил запрос на получение списка пользователей в базе данных.`
+
 <img width="1920" height="1031" alt="1" src="https://github.com/user-attachments/assets/6dd0f020-34a5-4f92-a683-540d9494f44e" />
 
 `Выполнил запрос на получение списка прав для пользователя sys_temp.`
+
 <img width="1920" height="1031" alt="2" src="https://github.com/user-attachments/assets/f8269f31-8711-4ae8-aca0-3ecd8fe49386" />
 
-`Скачал и восстановил дамп базы данных и сформировал ER-диаграмму. `
+`Скачал и восстановил дамп базы данных и сформировал ER-диаграмму.`
+
 <img width="1920" height="1031" alt="3" src="https://github.com/user-attachments/assets/3c5e6fc8-5fad-43a1-81ab-86042a53055a" />
 
 #### Простыня SQL-запросов
@@ -38,25 +41,25 @@ SHOW GRANTS FOR 'sys_temp'@'localhost';
 `Составил таблицу Excel с 2-мя столбцами - название таблиц и название первичных ключей.`
 
 ```
-Название таблицы	Название первичного ключа
-actor	            actor_id
-address	          address_id
-category	        category_id
-city	            city_id
-country	          country_id
-customer	        customer_id
-film	            film_id
-film_actor	      actor_id
-film_actor	      film_id
-film_category	    film_id
-film_category	    category_id
-film_text	        film_id
-inventory	        inventory_id
-language	        language_id
-payment	          payment_id
-rental	          rental_id
-staff	            staff_id
-store	            store_id
+Название таблицы | Название первичного ключа
+actor	           | actor_id
+address	         | address_id
+category	       | category_id
+city	           | city_id
+country	         | country_id
+customer	       | customer_id
+film	           | film_id
+film_actor	     | actor_id
+film_actor	     | film_id
+film_category	   | film_id
+film_category	   | category_id
+film_text	       | film_id
+inventory	       | inventory_id
+language	       | language_id
+payment	         | payment_id
+rental	         | rental_id
+staff	           | staff_id
+store	           | store_id
 ```
 
 <img width="1920" height="1031" alt="4" src="https://github.com/user-attachments/assets/04bb15ae-fa8b-4422-aa7b-49df591c5a88" />
@@ -66,6 +69,7 @@ store	            store_id
 ### Задание 3
 
 `Выполнил запрос на получение списка прав для пользователя sys_temp после удаления у пользователя следующих прав - (INSERT, UPDATE, DELETE).`
+
 <img width="1920" height="1020" alt="5" src="https://github.com/user-attachments/assets/f8cdb383-bb8d-414d-ac3e-ff7a0a7f90f3" />
 
 <img width="1920" height="1031" alt="6" src="https://github.com/user-attachments/assets/c04b18ed-fdfc-44d9-af41-db068ee9ae7b" />
