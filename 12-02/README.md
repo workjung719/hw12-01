@@ -8,9 +8,11 @@
 
 <img width="1920" height="1031" alt="1" src="https://github.com/user-attachments/assets/6dd0f020-34a5-4f92-a683-540d9494f44e" />
 
+
 `Выполнил запрос на получение списка прав для пользователя sys_temp.`
 
 <img width="1920" height="1031" alt="2" src="https://github.com/user-attachments/assets/f8269f31-8711-4ae8-aca0-3ecd8fe49386" />
+
 
 `Скачал и восстановил дамп базы данных и сформировал ER-диаграмму.`
 
@@ -62,6 +64,7 @@ staff	           | staff_id
 store	           | store_id
 ```
 
+
 <img width="1920" height="1031" alt="4" src="https://github.com/user-attachments/assets/04bb15ae-fa8b-4422-aa7b-49df591c5a88" />
 
 ---
@@ -71,6 +74,7 @@ store	           | store_id
 `Выполнил запрос на получение списка прав для пользователя sys_temp после удаления у пользователя следующих прав - (INSERT, UPDATE, DELETE).`
 
 <img width="1920" height="1020" alt="5" src="https://github.com/user-attachments/assets/f8cdb383-bb8d-414d-ac3e-ff7a0a7f90f3" />
+
 
 <img width="1920" height="1031" alt="6" src="https://github.com/user-attachments/assets/c04b18ed-fdfc-44d9-af41-db068ee9ae7b" />
 
