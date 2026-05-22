@@ -42,27 +42,24 @@ SHOW GRANTS FOR 'sys_temp'@'localhost';
 
 `Составил таблицу Excel с 2-мя столбцами - название таблиц и название первичных ключей.`
 
-```
-Название таблицы | Название первичного ключа
-actor	           | actor_id
-address	         | address_id
-category	       | category_id
-city	           | city_id
-country	         | country_id
-customer	       | customer_id
-film	           | film_id
-film_actor	     | actor_id
-film_actor	     | film_id
-film_category	   | film_id
-film_category	   | category_id
-film_text	       | film_id
-inventory	       | inventory_id
-language	       | language_id
-payment	         | payment_id
-rental	         | rental_id
-staff	           | staff_id
-store	           | store_id
-```
+| Название таблицы | Название первичного ключа |
+| :--- | :--- |
+| actor | actor_id |
+| address | address_id |
+| category | category_id |
+| city | city_id |
+| country | country_id |
+| customer | customer_id |
+| film | film_id |
+| film_actor | actor_id, film_id |
+| film_category | film_id, category_id |
+| film_text | film_id |
+| inventory | inventory_id |
+| language | language_id |
+| payment | payment_id |
+| rental | rental_id |
+| staff | staff_id |
+| store | store_id |
 
 
 <img width="1920" height="1031" alt="4" src="https://github.com/user-attachments/assets/04bb15ae-fa8b-4422-aa7b-49df591c5a88" />
