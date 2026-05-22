@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Работа с данными (DDL/DML)`" - `Лазебный Кирилл`
+# Домашнее задание к занятию "`Работа с данными (DDL/DML)`" -`Лазебный Кирилл`
 
 ---
 
@@ -28,13 +28,13 @@ SHOW GRANTS FOR 'sys_temp'@'localhost';
 -- 1.6 - 1.8. Восстановление дампа Sakila и ER-диаграмма
 -- (Дамп загружен через выполнение скриптов sakila-schema.sql и sakila-data.sql)
 ```
-
 ---
 
 ### Задание 2
 
 `Составил таблицу Excel с 2-мя столбцами - название таблиц и название первичных ключей.`
 
+```
 Название таблицы	Название первичного ключа
 actor	            actor_id
 address	          address_id
@@ -54,7 +54,8 @@ payment	          payment_id
 rental	          rental_id
 staff	            staff_id
 store	            store_id
-
+```
+<img width="1920" height="1031" alt="1" src="https://github.com/user-attachments/assets/85ef4297-a5d9-4da0-a4ce-56833db50fbf" />
 
 ---
 
