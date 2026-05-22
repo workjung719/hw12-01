@@ -5,10 +5,13 @@
 ### Задание 1
 
 `Выполнил запрос на получение списка пользователей в базе данных.`
+<img width="1920" height="1031" alt="1" src="https://github.com/user-attachments/assets/6dd0f020-34a5-4f92-a683-540d9494f44e" />
 
 `Выполнил запрос на получение списка прав для пользователя sys_temp.`
+<img width="1920" height="1031" alt="2" src="https://github.com/user-attachments/assets/f8269f31-8711-4ae8-aca0-3ecd8fe49386" />
 
 `Скачал и восстановил дамп базы данных и сформировал ER-диаграмму. `
+<img width="1920" height="1031" alt="3" src="https://github.com/user-attachments/assets/3c5e6fc8-5fad-43a1-81ab-86042a53055a" />
 
 #### Простыня SQL-запросов
 
@@ -55,14 +58,17 @@ rental	          rental_id
 staff	            staff_id
 store	            store_id
 ```
-<img width="1920" height="1031" alt="1" src="https://github.com/user-attachments/assets/85ef4297-a5d9-4da0-a4ce-56833db50fbf" />
+
+<img width="1920" height="1031" alt="4" src="https://github.com/user-attachments/assets/04bb15ae-fa8b-4422-aa7b-49df591c5a88" />
 
 ---
 
 ### Задание 3
 
 `Выполнил запрос на получение списка прав для пользователя sys_temp после удаления у пользователя следующих прав - (INSERT, UPDATE, DELETE).`
+<img width="1920" height="1020" alt="5" src="https://github.com/user-attachments/assets/f8cdb383-bb8d-414d-ac3e-ff7a0a7f90f3" />
 
+<img width="1920" height="1031" alt="6" src="https://github.com/user-attachments/assets/c04b18ed-fdfc-44d9-af41-db068ee9ae7b" />
 
 #### Простыня SQL-запросов
 
@@ -74,3 +80,4 @@ REVOKE INSERT, UPDATE, DELETE ON *.* FROM 'sys_temp'@'localhost';
 -- 3.2. Проверка обновления списка прав
 SHOW GRANTS FOR 'sys_temp'@'localhost';
 ```
+
